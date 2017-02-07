@@ -2,34 +2,34 @@
     <footer class="nav">
         <ul @click='which'>
             <li>
-                <a href="#home">
+                <router-link to="/home">
                     <span class="iconfont icon-shouyeshouye "></span>
                     首页
-                </a>
+                </router-link>
             </li>
             <li>
-                <a href="#fenlei">
+                <router-link to="/fenlei">
                     <span class="iconfont icon-fenlei "></span>
                     分类
-                </a>
+                </router-link>
             </li>
             <li>
-                <a href="#cart">
+                <router-link to="/cart">
                     <span class="iconfont icon-gouwuche"></span>
                     购物车
-                </a>
+                </router-link>
             </li>
             <li>
-                <a href="#myshow">
+                <router-link to="/myshow">
                     <span class="iconfont icon-iconfontwode "></span>
                     我的秀
-                </a>
+                </router-link>
             </li>
             <li>
-                <a href="#more">
+                <router-link to="/more">
                     <span class="iconfont icon-gengduo "></span>
                     更多
-                </a>
+                </router-link>
             </li>
         </ul>
     </footer>
@@ -55,6 +55,7 @@
             { path: '/more', component: More }
         ]
     });
+
    module.exports = {
        name: 'footer-nav',
        router: router,
