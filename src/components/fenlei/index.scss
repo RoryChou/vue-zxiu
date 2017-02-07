@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+@import "../var";
+
+@import "../home/index";
+
+#fenlei {
+  @extend .page-1;
+  .lists {
+    ul {
+      li {
+        border-bottom: 1px solid #666;
+        p {
+          float: left;
+          height: 100%;
+          line-height: 0.9rem;
+          margin-left: 0.42rem;
+          font-size: 0.36rem;
+          &.all {
+            margin-left: 0.2rem;
+          }
+        }
+        span {
+          float: right;
+          display: block;
+          height: 100%;
+          line-height: 0.9rem;
+          margin-right: 0.32rem;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,89 @@
+@charset "UTF-8";
+$color-main:#e63569;
+
+body {
+  font-size: 0.48rem;
+}
+
+header {
+  p {
+    height: 0.85rem;
+    background-color: $color-main;
+    line-height:0.85rem;
+    text-align: center;
+    color: #fff;
+    font-size: 22px;
+    font-family: "Microsoft Yahei";
+    text-shadow: 0 1px 1px #000;
+
+  }
+  span.iconfont {
+    position: absolute;
+    left: 0.2rem;
+    top: 0.2rem;
+    font-size: 0.6rem;
+    color: #fff;
+  }
+}
+
+.search {
+  background-color: #52525a;
+  height: 0.86rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  input {
+    background: url("//search-icon.png") no-repeat left center;
+    background-color: #fff;
+    background-size: 0.34rem 0.38rem;
+    background-position-x: 0.27rem;
+    padding-left: 0.74rem;
+    display: block;
+    height: 0.56rem;
+    border-radius: 0.28rem;
+    border: 0;
+    width: 5.16rem;
+  }
+}
+
+.loading {
+  display: none;
+  height: 0.8rem;
+  opacity: 0.5;
+  background-color: $color-main;
+  line-height: 0.8rem;
+  color: #fff;
+  text-align: center;
+}
+
+.reload {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center;
+}
+
+header.logup,header.login{
+  position: relative;
+  display: flex;
+  background-color: $color-main;
+  justify-content: center;
+  align-items: center;
+  div {
+    position: absolute;
+    right: 0.18rem;
+    top: 50%;
+    margin-top: -0.27rem;
+    border-radius: 0.08rem;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 2px #666;
+    a {
+      display: block;
+      height: 0.54rem;
+      width: 1.1rem;
+      line-height: 0.54rem;
+      color: #fff;
+      text-align: center;
+      font-size: 0.24rem;
+    }
+  }
+}

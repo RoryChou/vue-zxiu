@@ -1,0 +1,104 @@
+body {
+  font-size: 0.48rem; }
+
+header p {
+  height: 0.85rem;
+  background-color: #e63569;
+  line-height: 0.85rem;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  font-family: "Microsoft Yahei";
+  text-shadow: 0 1px 1px #000; }
+header span.iconfont {
+  position: absolute;
+  left: 0.2rem;
+  top: 0.2rem;
+  font-size: 0.6rem;
+  color: #fff; }
+
+.search {
+  background-color: #52525a;
+  height: 0.86rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .search input {
+    background: url("//search-icon.png") no-repeat left center;
+    background-color: #fff;
+    background-size: 0.34rem 0.38rem;
+    background-position-x: 0.27rem;
+    padding-left: 0.74rem;
+    display: block;
+    height: 0.56rem;
+    border-radius: 0.28rem;
+    border: 0;
+    width: 5.16rem; }
+
+.loading {
+  display: none;
+  height: 0.8rem;
+  opacity: 0.5;
+  background-color: #e63569;
+  line-height: 0.8rem;
+  color: #fff;
+  text-align: center; }
+
+.reload {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center; }
+
+header.logup, header.login {
+  position: relative;
+  display: flex;
+  background-color: #e63569;
+  justify-content: center;
+  align-items: center; }
+  header.logup div, header.login div {
+    position: absolute;
+    right: 0.18rem;
+    top: 50%;
+    margin-top: -0.27rem;
+    border-radius: 0.08rem;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 2px #666; }
+    header.logup div a, header.login div a {
+      display: block;
+      height: 0.54rem;
+      width: 1.1rem;
+      line-height: 0.54rem;
+      color: #fff;
+      text-align: center;
+      font-size: 0.24rem; }
+
+footer.nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0; }
+  footer.nav ul {
+    height: 1rem;
+    background-color: #484850;
+    display: flex; }
+    footer.nav ul li {
+      flex: 1;
+      padding-top: 0.05rem;
+      height: 100%; }
+      footer.nav ul li.current {
+        background-color: #e63569; }
+      footer.nav ul li a {
+        height: 92%;
+        text-align: center;
+        display: block;
+        color: #fff;
+        font-size: 0.2rem;
+        font-family: microsoft Yahei;
+        background-color: #484850;
+        padding-top: 0.07rem; }
+        footer.nav ul li a span {
+          display: block;
+          font-size: 0.6rem;
+          line-height: 0.5rem;
+          height: 0.5rem; }
+
+/*# sourceMappingURL=index.css.map */

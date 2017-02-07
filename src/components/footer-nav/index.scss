@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+@import "../var";
+
+footer.nav {
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  ul {
+    height: 1rem;
+    background-color: #484850;
+    display: flex;
+    li {
+      flex: 1;
+      padding-top: 0.05rem;
+      height: 100%;
+      &.current {
+        background-color: $color-main;
+      }
+      a {
+        height: 92%;
+        text-align: center;
+        display: block;
+        color: #fff;
+        font-size: 0.2rem;
+        font-family: microsoft Yahei;
+        background-color: #484850;
+        padding-top: 0.07rem;
+        span {
+          display: block;
+          font-size: 0.6rem;
+          line-height: 0.5rem;
+          height: 0.5rem;
+        }
+      }
+    }
+  }
+
+}

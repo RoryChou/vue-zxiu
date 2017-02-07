@@ -1,0 +1,125 @@
+body {
+  font-size: 0.48rem; }
+
+header p {
+  height: 0.85rem;
+  background-color: #e63569;
+  line-height: 0.85rem;
+  text-align: center;
+  color: #fff;
+  font-size: 22px;
+  font-family: "Microsoft Yahei";
+  text-shadow: 0 1px 1px #000; }
+header span.iconfont {
+  position: absolute;
+  left: 0.2rem;
+  top: 0.2rem;
+  font-size: 0.6rem;
+  color: #fff; }
+
+.search {
+  background-color: #52525a;
+  height: 0.86rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  .search input {
+    background: url("//search-icon.png") no-repeat left center;
+    background-color: #fff;
+    background-size: 0.34rem 0.38rem;
+    background-position-x: 0.27rem;
+    padding-left: 0.74rem;
+    display: block;
+    height: 0.56rem;
+    border-radius: 0.28rem;
+    border: 0;
+    width: 5.16rem; }
+
+.loading {
+  display: none;
+  height: 0.8rem;
+  opacity: 0.5;
+  background-color: #e63569;
+  line-height: 0.8rem;
+  color: #fff;
+  text-align: center; }
+
+.reload {
+  height: 1.2rem;
+  line-height: 1.2rem;
+  text-align: center; }
+
+header.logup, header.login {
+  position: relative;
+  display: flex;
+  background-color: #e63569;
+  justify-content: center;
+  align-items: center; }
+  header.logup div, header.login div {
+    position: absolute;
+    right: 0.18rem;
+    top: 50%;
+    margin-top: -0.27rem;
+    border-radius: 0.08rem;
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 2px #666; }
+    header.logup div a, header.login div a {
+      display: block;
+      height: 0.54rem;
+      width: 1.1rem;
+      line-height: 0.54rem;
+      color: #fff;
+      text-align: center;
+      font-size: 0.24rem; }
+
+.page-4 .self-info {
+  padding-top: 0.62rem;
+  padding-left: 0.34rem;
+  padding-right: 0.5rem; }
+  .page-4 .self-info .photo {
+    float: left;
+    border-radius: 0.1rem;
+    width: 1.64rem;
+    height: 1.65rem;
+    background: url("../img/head-icon.png") no-repeat;
+    background-size: contain; }
+  .page-4 .self-info .details {
+    float: left;
+    padding: 0.3rem 0 0.4rem 0.34rem; }
+    .page-4 .self-info .details p {
+      font-size: 0.36rem; }
+    .page-4 .self-info .details button {
+      margin-top: 0.38rem;
+      min-width: 1.06rem;
+      height: 0.54rem;
+      background-color: #e63569;
+      line-height: 0.54rem;
+      text-align: center;
+      font-size: 0.24rem;
+      border: 0;
+      border-radius: 0.1rem; }
+      .page-4 .self-info .details button a {
+        color: #fff; }
+      .page-4 .self-info .details button.sign-up {
+        margin-left: 0.44rem; }
+  .page-4 .self-info .lists {
+    float: left;
+    width: 100%;
+    margin-top: 0.83rem;
+    border: 1px solid #ccc;
+    border-radius: 0.1rem; }
+    .page-4 .self-info .lists li {
+      border-bottom: 1px solid #ccc; }
+      .page-4 .self-info .lists li.last {
+        border-bottom: 0; }
+      .page-4 .self-info .lists li a {
+        display: block;
+        line-height: 0.9rem;
+        padding: 0 0.2rem;
+        color: #000;
+        background: url("../img/arrow.png") no-repeat right center;
+        background-size: 0.32rem 0.32rem;
+        background-position-x: 93%;
+        background-color: #fff; }
+
+/*# sourceMappingURL=index.css.map */
