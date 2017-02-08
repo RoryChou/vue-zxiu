@@ -1,7 +1,7 @@
 <template>
     <footer class="nav">
-        <ul @click='which'>
-            <li>
+        <ul>
+            <li @click="which">
                 <router-link to="/home">
                     <span class="iconfont icon-shouyeshouye "></span>
                     首页
@@ -62,6 +62,7 @@
        methods: {
            which: function (e) {
                console.log(e)
+               //如何点击确定
            }
        }
    }
